@@ -1,0 +1,12 @@
+{
+	"_AlphaCutoffEnable": 1,
+	"_ZTestGBuffer": 3,
+	"_ALPHATEST_ON": "KEYWORD"
+}
+{
+    "_EmissiveColorMap": "Jolly.png",
+    "_UseEmissiveIntensity": 1.0,
+    "_EmissiveIntensity": 10.0,
+    "_EmissiveColor": "1.0, 1.0, 1.0, 1.0",
+    "_EMISSIVE_COLOR_MAP": "KEYWORD"
+}

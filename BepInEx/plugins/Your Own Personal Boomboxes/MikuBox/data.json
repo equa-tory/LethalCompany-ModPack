@@ -1,0 +1,9 @@
+{
+	"name": "MikuBox",
+	"description": "Miku Music",
+	"price": 60,
+	"volume": 0.4,
+	"red": 134,
+	"blue": 206,
+	"green": 203
+}
