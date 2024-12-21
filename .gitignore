@@ -1,17 +1,22 @@
+# Game Folders
 FreeTP/
-Lethal Company_Data/
+Lethal Company_Data/*
 MonoBleedingEdge/
 
-favicon.ico
-FreeTP.Org.url
+# Game Files
 Lethal Company.exe
 nvngx_dlss.dll
 NVUnityPlugin.dll
-ReadMe - как играть по сети.url
-SteamFix.ini
-SteamFix64.dll
-SteamOverlay64.dll
 UnityCrashHandler64.exe
 UnityPlayer.dll
-winmm.dll
-winmm.txt
+
+# Online Fix
+FreeTP.Org.url
+ReadMe - как играть по сети.url
+favicon.ico
+!Lethal Company_Data/Plugins/x86_64/steam_api64.dll
+!SteamFix.ini
+!SteamFix64.dll
+!winmm.dll
+!winmm.txt
+!SteamOverlay64.dll

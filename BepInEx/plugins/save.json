@@ -2944,7 +2944,6 @@
   ],
   "History": {
     "value": [
-      "k2",
       "ReactorKeyword",
       "HealthKeyword",
       "CompanyMoon",
@@ -2957,11 +2956,12 @@
       "Moons",
       "expe",
       "Deny",
-      "boom",
       "Store",
       "store",
       "pbA Jsch",
       "pbB ",
+      "boom",
+      "BoomBox",
       "Confirm"
     ]
   },

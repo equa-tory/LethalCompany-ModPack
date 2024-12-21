@@ -28,7 +28,7 @@
 [Debug  :   BepInEx] Skipping loading D:\Games_D\steamapps\steamapps\common\Lethal Company\BepInEx\plugins\qwbarch-MirageCore-1.0.3\SileroVAD\onnxruntime.dll because it's not a valid .NET assembly. Full error: Format of the executable (.exe) or library (.dll) is invalid.
 [Debug  :   BepInEx] Skipping loading D:\Games_D\steamapps\steamapps\common\Lethal Company\BepInEx\plugins\qwbarch-MirageCore-1.0.3\SileroVAD\onnxruntime_providers_shared.dll because it's not a valid .NET assembly. Full error: Format of the executable (.exe) or library (.dll) is invalid.
 [Debug  :   BepInEx] Skipping loading D:\Games_D\steamapps\steamapps\common\Lethal Company\BepInEx\plugins\qwbarch-MirageCore-1.0.3\SileroVAD\SileroVAD.API.dll because it's not a valid .NET assembly. Full error: Format of the executable (.exe) or library (.dll) is invalid.
-[Info   :   BepInEx] 41 plugins to load
+[Info   :   BepInEx] 38 plugins to load
 [Warning:   BepInEx] Plugin [ItemQuickSwitchMod 1.1.0] targets a wrong version of BepInEx (5.4.22.0) and might not work until you update
 [Warning:   BepInEx] Plugin [MoreEmotes-Sligili 1.3.3] targets a wrong version of BepInEx (5.4.22.0) and might not work until you update
 [Warning:   BepInEx] Plugin [FreddyBracken 1.0.4] targets a wrong version of BepInEx (5.4.22.0) and might not work until you update
@@ -44,23 +44,6 @@
 [Info   :ainavt.lc.lethalconfig] Registered config "LethalConfig/Example/Int Input"
 [Info   :ainavt.lc.lethalconfig] Registered config "LethalConfig/Example/Float Input"
 [Info   :ainavt.lc.lethalconfig] LethalConfig loaded!
-[Info   :   BepInEx] Loading [Personal Boombox 1.4.4]
-[Info   :ImoutoSama.PersonalBoombox] Plugin Personal Boombox has been added!
-[Info   :ImoutoSama.PersonalBoombox] Loading asset prefab
-[Info   :ImoutoSama.PersonalBoombox] Loading asset debugCanvas
-[Info   :ImoutoSama.PersonalBoombox] Loading asset volumeControlCanvas
-[Info   :ImoutoSama.PersonalBoombox] Loading asset boomboxIcon
-[Info   :ImoutoSama.PersonalBoombox] Adding path to read boombox data from: D:\Games_D\steamapps\steamapps\common\Lethal Company\BepInEx\plugins\Your Own Personal Boomboxes
-[Info   :   BepInEx] Loading [MikuBox 1.1.0]
-[Info   :Alukard.MikuBox] Plugin MikuBox has been added!
-[Warning:ImoutoSama.PersonalBoombox] Trying to add boombox data path that's already been added: D:\Games_D\steamapps\steamapps\common\Lethal Company\BepInEx\plugins\Your Own Personal Boomboxes
-[Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object
-Stack trace:
-MikuBox.MikuBoxBase.Awake () (at <bcf9fd762932493496229c19a7e90918>:0)
-UnityEngine.GameObject:AddComponent(Type)
-BepInEx.Bootstrap.Chainloader:Start()
-UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset:OnEnable()
-
 [Info   :   BepInEx] Loading [Fnaf Power Outage 1.0.1]
 [Info   :atg.FnafPowerOutage] Starting Fnaf Power Outage
 [Info   :atg.FnafPowerOutage] D:\Games_D\steamapps\steamapps\common\Lethal Company\BepInEx\plugins\FnafPowerOutage\toreadormarch
@@ -250,16 +233,6 @@ UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset:OnEnable()
 [Info   :ImmortalSnail] Applying User-Defined Configuration Settings
 [Info   :ImmortalSnail] Registering Snail as Enemy
 [Info   :ImmortalSnail] Plugin ImmortalSnail 0.7.4 is loaded!
-[Info   :   BepInEx] Loading [JschlattChristmasBoombox 1.0.0]
-[Info   :JacuJ.JschlattChristmasBoombox] Plugin JschlattChristmasBoombox has been added!
-[Warning:ImoutoSama.PersonalBoombox] Trying to add boombox data path that's already been added: D:\Games_D\steamapps\steamapps\common\Lethal Company\BepInEx\plugins\Your Own Personal Boomboxes
-[Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object
-Stack trace:
-JschlattChristmasBoombox.JschlattChristmasBoomboxPlugin.Awake () (at <acb421728e2a4f06b974a8cfd4a57fdf>:IL_0082)
-UnityEngine.GameObject:AddComponent(Type)
-BepInEx.Bootstrap.Chainloader:Start()
-UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset:OnEnable()
-
 [Info   :   BepInEx] Loading [Groan Tube Scrap 1.0.4]
 [Info   :   BepInEx] Loading [Maxwell Scrap 1.0.1]
 [Info   :   BepInEx] Loading [FacilityMeltdown 2.6.20]
@@ -467,42 +440,21 @@ UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset:OnEnable()
 [Message:   BepInEx] Chainloader startup complete
 [Info   : Unity Log] Saving changed settings
 [Info   : Unity Log] subcribing to steam callbacks
-[Info   :ImoutoSama.PersonalBoombox] Reading from D:\Games_D\steamapps\steamapps\common\Lethal Company\BepInEx\plugins\Your Own Personal Boomboxes!
-[Info   :ImoutoSama.PersonalBoombox] Reading from D:\Games_D\steamapps\steamapps\common\Lethal Company\BepInEx\plugins\Your Own Personal Boomboxes!
-[Info   :ImoutoSama.PersonalBoombox] Loaded BabyItsColdOutside.mp3
-[Info   :ImoutoSama.PersonalBoombox] Loaded HappyHoliday.mp3
-[Info   :ImoutoSama.PersonalBoombox] Loaded LetItSnow.mp3
-[Info   :ImoutoSama.PersonalBoombox] Loaded ItsTheMostWonderfulTimeOfTheYear.mp3
-[Info   :ImoutoSama.PersonalBoombox] Loaded SantaClausIsComingToTown.mp3
-[Info   :ImoutoSama.PersonalBoombox] Loaded TheChristmasSong.mp3
-[Info   :ImoutoSama.PersonalBoombox] Loaded HaveYourselfAMerryLittleChristmas.mp3
-[Info   :ImoutoSama.PersonalBoombox] Loaded WhiteChristmas.mp3
-[Info   :ImoutoSama.PersonalBoombox] Loaded Miku is waking up.mp3
-[Info   :ImoutoSama.PersonalBoombox] Loaded DECO27 - Salamander feat. Miku.mp3
-[Info   :ImoutoSama.PersonalBoombox] Loaded chug jug with you  miku hatsune (FULL COVER).mp3
-[Info   :ImoutoSama.PersonalBoombox] Loaded DECO27 - Volt Tackle feat.Miku.mp3
-[Info   :ImoutoSama.PersonalBoombox] Loaded Hatsune Miku - Ievan Polkka.mp3
-[Info   :ImoutoSama.PersonalBoombox] Loaded M@GICALCURE! LOVE  SHOT! (Special Edition)  SAWTOWNE feat. Hatsune Miku.mp3
 [Debug  :me.loaforc.facilitymeltdown] Registered GeigerCounterItem as a network prefab.
 [Debug  :me.loaforc.facilitymeltdown] Registered MeltdownHandler as a network prefab.
 [Info   :me.loaforc.facilitymeltdown] Succesfully registered 2 network prefabs.
-[Info   :ImoutoSama.PersonalBoombox] Adding personal boomboxes to network list
 [Info   : Unity Log] [MAXWELL] Added network prefab
 [Warning:Buyable Shotgun Shells] Game network manager start
 [Warning: Unity Log] DontDestroyOnLoad only works for root GameObjects or components on root GameObjects.
 [Info   :Buyable Shotgun Shells] Shotgun Shell added to Shop for 20 credits
-[Info   :ImoutoSama.PersonalBoombox] Loaded decal.png
-[Info   :ImoutoSama.PersonalBoombox] pbA Jschlatt 1999 is fully set up with 8 songs!
-[Info   :ImoutoSama.PersonalBoombox] Loaded decal.png
-[Info   :ImoutoSama.PersonalBoombox] pbB MikuBox is fully set up with 6 songs!
 [Info   :ainavt.lc.lethalconfig] Injecting mod config menu into main menu...
 [Info   :MoreCompany] LANMenu startLAN Patched
 [Info   : Unity Log] Returning week num: 53
 [Info   : Unity Log] week num: 53
 [Info   :ainavt.lc.lethalconfig] Injecting mod config menu into main menu...
-[Info   :ainavt.lc.lethalconfig] 41 mods loaded: ainavt.lc.lethalconfig;ImoutoSama.PersonalBoombox;Alukard.MikuBox;atg.FnafPowerOutage;atomic.terminalapi;atomic.terminalclock;me.swipez.melonloader.morecompany;meow.ModelReplacementAPI;com.evanore.gokumodelreplacement;com.github.tinyhoot.ShipLoot;com.PeeJohn.Lethal_Master_Chief;com.rune580.LethalCompanyInputUtils;com.weliveinasociety.CustomEmotesAPI;com.weliveinasociety.badasscompany;darmuh.ghostCodes;de.vasanex.ItemQuickSwitchMod;evaisa.lethallib;FreddyBracken;ImmortalSnail;JacuJ.JschlattChristmasBoombox;Kittenji.GroanTubeScrap;Kittenji.MaxwellScrap;me.loaforc.facilitymeltdown;MegaPiggy.BuyableShotgunShells;MetalPipeSFX.HornMoan;NicholaScott.BepInEx.RuntimeNetcodeRPCValidator;MoreEmotes;nomnomab.rollinggiant;qwbarch.Mirage;rattenbonkers.TVLoader;redeye.lethalautocomplete;RickArg.lethalcompany.helmetcameras;RugbugRedfern.SkinwalkerMod;SpectateEnemy;sunnobunno.YippeeMod;taffyko.NiceChat;toemmsen.ChatCommands;x753.More_Suits;TooManySuits;twig.latecompany;x753.Mimics
-[Info   :ainavt.lc.lethalconfig] Generated 26 mod entries.
-[Info   :ainavt.lc.lethalconfig] Generated 254 configs, of which 204 were missing and registered.
+[Info   :ainavt.lc.lethalconfig] 38 mods loaded: ainavt.lc.lethalconfig;atg.FnafPowerOutage;atomic.terminalapi;atomic.terminalclock;me.swipez.melonloader.morecompany;meow.ModelReplacementAPI;com.evanore.gokumodelreplacement;com.github.tinyhoot.ShipLoot;com.PeeJohn.Lethal_Master_Chief;com.rune580.LethalCompanyInputUtils;com.weliveinasociety.CustomEmotesAPI;com.weliveinasociety.badasscompany;darmuh.ghostCodes;de.vasanex.ItemQuickSwitchMod;evaisa.lethallib;FreddyBracken;ImmortalSnail;Kittenji.GroanTubeScrap;Kittenji.MaxwellScrap;me.loaforc.facilitymeltdown;MegaPiggy.BuyableShotgunShells;MetalPipeSFX.HornMoan;NicholaScott.BepInEx.RuntimeNetcodeRPCValidator;MoreEmotes;nomnomab.rollinggiant;qwbarch.Mirage;rattenbonkers.TVLoader;redeye.lethalautocomplete;RickArg.lethalcompany.helmetcameras;RugbugRedfern.SkinwalkerMod;SpectateEnemy;sunnobunno.YippeeMod;taffyko.NiceChat;toemmsen.ChatCommands;x753.More_Suits;TooManySuits;twig.latecompany;x753.Mimics
+[Info   :ainavt.lc.lethalconfig] Generated 23 mod entries.
+[Info   :ainavt.lc.lethalconfig] Generated 247 configs, of which 197 were missing and registered.
 [Info   : Unity Log] host button pressed
 [Info   : Unity Log] Returning week num: 53
 [Info   : Unity Log] Displaying menu message
@@ -549,8 +501,6 @@ UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset:OnEnable()
 [Info   :RuntimeNetcodeRPCValidator] Successfully added SyncAnimatorToOthers to PlayerControllerB via Awake. Triggered by plugin MoreEmotes
 [Info   : LethalLib] Adding 0 unlockables to unlockables list
 [Info   : LethalLib] Adding 2 items to terminal
-[Info   :ImoutoSama.PersonalBoombox] Adding pbA Jschlatt 1999 to terminal
-[Info   :ImoutoSama.PersonalBoombox] Adding pbB MikuBox to terminal
 [Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
 [Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
 [Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
@@ -644,7 +594,6 @@ UnityEngine.Rendering.HighDefinition.HDRenderPipelineAsset:OnEnable()
 [Info   : Unity Log] Called teleport function on Player (31)
 [Warning: Unity Log] damageTrigger is disabled! Netcode for GameObjects does not support spawning disabled NetworkBehaviours! The InteractTrigger component was skipped during spawn!
 [Info   : LethalLib] Found 0 prefabs to fix
-[Info   :ImoutoSama.PersonalBoombox] Adding personal boomboxes to items list
 [Info   : Unity Log] Something went wrong with More Suits! Error: System.IO.FileNotFoundException: Could not find file "D:\Games_D\steamapps\steamapps\common\Lethal Company\BepInEx\plugins\moresuits\advanced\Flakes.png"
 File name: 'D:\Games_D\steamapps\steamapps\common\Lethal Company\BepInEx\plugins\moresuits\advanced\Flakes.png'
   at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <787acc3c9a4c471ba7d971300105af24>:IL_019E 
@@ -702,8 +651,6 @@ File name: 'D:\Games_D\steamapps\steamapps\common\Lethal Company\BepInEx\plugins
 [Info   : Unity Log] Item sales percentages #15: 0
 [Info   : Unity Log] Item sales percentages #16: 0
 [Info   : Unity Log] Item sales percentages #17: 0
-[Info   : Unity Log] Item sales percentages #18: 0
-[Info   : Unity Log] Item sales percentages #19: 0
 [Info   : Unity Log] Loading placed object position as: (6.77, 2.52, -11.61)
 [Info   : Unity Log] Saving placed position as: (6.77, 2.52, -11.61)
 [Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
@@ -727,7 +674,19 @@ File name: 'D:\Games_D\steamapps\steamapps\common\Lethal Company\BepInEx\plugins
 [Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
 [Warning: Unity Log] NetworkVariable is written to, but doesn't know its NetworkBehaviour yet. Are you modifying a NetworkVariable before the NetworkObject is spawned?
 [Info   : Unity Log] Ship grabbable items list loaded. Count: 3
-[Info   : Unity Log] Loaded vehicle ID: -1
+[Error  : Unity Log] ArgumentOutOfRangeException: Index was out of range. Must be non-negative and less than the size of the collection.
+Parameter name: index
+Stack trace:
+System.Collections.Generic.List`1[T].get_Item (System.Int32 index) (at <787acc3c9a4c471ba7d971300105af24>:IL_0009)
+StartOfRound.LoadShipGrabbableItems () (at <b5c9757a4ecc4ee1b8a83c58c3df2def>:IL_0189)
+(wrapper dynamic-method) StartOfRound.DMD<StartOfRound::Start>(StartOfRound)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.Trampoline<StartOfRound::Start>?-1399281154(StartOfRound)
+LethalLib.Modules.Items.StartOfRound_Start (On.StartOfRound+orig_Start orig, StartOfRound self) (at <ef4e7af8c5b54c0da39ca0b1ffad7d7f>:IL_0178)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.Hook<StartOfRound::Start>?-125634252(StartOfRound)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.Trampoline<StartOfRound::Start>?2003693648(StartOfRound)
+LethalLib.Modules.Utilities.StartOfRound_Start (On.StartOfRound+orig_Start orig, StartOfRound self) (at <ef4e7af8c5b54c0da39ca0b1ffad7d7f>:IL_019C)
+(wrapper dynamic-method) MonoMod.Utils.DynamicMethodDefinition.Hook<StartOfRound::Start>?-1272846976(StartOfRound)
+
 [Info   :toemmsen.ChatCommands] Default Jump Force: 13
 [Info   :toemmsen.ChatCommands] Default Jump Force: 13
 [Info   :toemmsen.ChatCommands] Default Jump Force: 13
@@ -1019,10 +978,6 @@ File name: 'D:\Games_D\steamapps\steamapps\common\Lethal Company\BepInEx\plugins
 [Info   :Lethal Autocomplete] blacklist
 [Warning:Lethal Autocomplete] Add: shells (TerminalKeyword)
 [Info   :Lethal Autocomplete] blacklist
-[Warning:Lethal Autocomplete] Add: BoomBox(Clone) 1 (TerminalKeyword)
-[Info   :Lethal Autocomplete] blacklist
-[Warning:Lethal Autocomplete] Add: BoomBox(Clone) 8 (TerminalKeyword)
-[Info   :Lethal Autocomplete] blacklist
 [Warning:Lethal Autocomplete] Add: HealthKeyword (TerminalKeyword)
 [Info   :Lethal Autocomplete] blacklist
 [Warning:Lethal Autocomplete] Add: ReactorKeyword (TerminalKeyword)
@@ -1128,77 +1083,6 @@ HornMoan.PipePatch.AudioPatch (GrabbableObject __instance) (at <adcc6bbb2f2a4c35
 [Info   :toemmsen.ChatCommands] Default Jump Force: 13
 [Info   :toemmsen.ChatCommands] Default Jump Force: 13
 [Info   :toemmsen.ChatCommands] Default Jump Force: 13
-[Warning: Unity Log] BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/LightSwitchContainer/PlacementCollider"
-[Warning: Unity Log] BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/Cube"
-[Warning: Unity Log] BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/AnimatedShipDoor/HangarDoorLeft (1)"
-[Warning: Unity Log] BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (1)"
-[Warning: Unity Log] BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ControlDesk.001"
-[Warning: Unity Log] BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (3)"
-[Warning: Unity Log] BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (7)"
-[Warning: Unity Log] BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/StorageCloset/Cube.000/Cube"
-[Warning: Unity Log] BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (6)"
-[Warning: Unity Log] BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (8)"
-[Warning: Unity Log] BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (5)"
-[Warning: Unity Log] BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (4)"
-[Error  :MetalPipeSFX.HornMoan] Error loading sounds: D:\Games_D\steamapps\steamapps\common\Lethal Company\BepInEx\plugins\MetalPipeSFX-HornMoan\Moaning1.mp3
-HTTP/1.1 404 Not Found
-[Error  : Unity Log] InvalidOperationException: HTTP/1.1 404 Not Found
-Stack trace:
-UnityEngine.Networking.DownloadHandler.GetCheckedDownloader[T] (UnityEngine.Networking.UnityWebRequest www) (at <c222d83f79f841d286bf88de99b703c5>:IL_003F)
-UnityEngine.Networking.DownloadHandlerAudioClip.GetContent (UnityEngine.Networking.UnityWebRequest www) (at <9a17a0dbd95042e09c96c00e843f4382>:IL_0001)
-HornMoan.PipePatch.LoadAudioClip (System.String filepath) (at <adcc6bbb2f2a4c35b1d0719ceb30afc6>:IL_005B)
-HornMoan.PipePatch.AudioPatch (GrabbableObject __instance) (at <adcc6bbb2f2a4c35b1d0719ceb30afc6>:IL_0026)
-(wrapper dynamic-method) GrabbableObject.DMD<GrabbableObject::Start>(GrabbableObject)
-PersonalBoombox.PersonalBoomboxItem.Start () (at <f1fbf17e055b4bbe8641eb3f146bb6d4>:IL_0001)
-
-[Error  :MetalPipeSFX.HornMoan] Error loading sounds: D:\Games_D\steamapps\steamapps\common\Lethal Company\BepInEx\plugins\MetalPipeSFX-HornMoan\Moaning1.mp3
-HTTP/1.1 404 Not Found
-[Error  : Unity Log] InvalidOperationException: HTTP/1.1 404 Not Found
-Stack trace:
-UnityEngine.Networking.DownloadHandler.GetCheckedDownloader[T] (UnityEngine.Networking.UnityWebRequest www) (at <c222d83f79f841d286bf88de99b703c5>:IL_003F)
-UnityEngine.Networking.DownloadHandlerAudioClip.GetContent (UnityEngine.Networking.UnityWebRequest www) (at <9a17a0dbd95042e09c96c00e843f4382>:IL_0001)
-HornMoan.PipePatch.LoadAudioClip (System.String filepath) (at <adcc6bbb2f2a4c35b1d0719ceb30afc6>:IL_005B)
-HornMoan.PipePatch.AudioPatch (GrabbableObject __instance) (at <adcc6bbb2f2a4c35b1d0719ceb30afc6>:IL_0026)
-(wrapper dynamic-method) GrabbableObject.DMD<GrabbableObject::Start>(GrabbableObject)
-BoomboxItem.Start () (at <b5c9757a4ecc4ee1b8a83c58c3df2def>:IL_0000)
-
-[Error  :MetalPipeSFX.HornMoan] Error loading sounds: D:\Games_D\steamapps\steamapps\common\Lethal Company\BepInEx\plugins\MetalPipeSFX-HornMoan\Moaning1.mp3
-HTTP/1.1 404 Not Found
-[Error  : Unity Log] InvalidOperationException: HTTP/1.1 404 Not Found
-Stack trace:
-UnityEngine.Networking.DownloadHandler.GetCheckedDownloader[T] (UnityEngine.Networking.UnityWebRequest www) (at <c222d83f79f841d286bf88de99b703c5>:IL_003F)
-UnityEngine.Networking.DownloadHandlerAudioClip.GetContent (UnityEngine.Networking.UnityWebRequest www) (at <9a17a0dbd95042e09c96c00e843f4382>:IL_0001)
-HornMoan.PipePatch.LoadAudioClip (System.String filepath) (at <adcc6bbb2f2a4c35b1d0719ceb30afc6>:IL_005B)
-HornMoan.PipePatch.AudioPatch (GrabbableObject __instance) (at <adcc6bbb2f2a4c35b1d0719ceb30afc6>:IL_0026)
-(wrapper dynamic-method) GrabbableObject.DMD<GrabbableObject::Start>(GrabbableObject)
-PersonalBoombox.PersonalBoomboxItem.Start () (at <f1fbf17e055b4bbe8641eb3f146bb6d4>:IL_0001)
-
-[Info   : Unity Log] [HELMET_CAMERAS] Starting coroutine...
-[Info   : Unity Log] [HELMET_CAMERAS] 5 seconds for init mode... Please wait...
 [Info   : Unity Log] Called teleport function on Player
 [Info   : Unity Log] Taking control of player Player and enabling camera!
 [Info   : Unity Log] Called teleport function on Player (1)
@@ -1241,75 +1125,161 @@ PersonalBoombox.PersonalBoomboxItem.Start () (at <f1fbf17e055b4bbe8641eb3f146bb6
 [Info   : Unity Log] !!!! connectedPlayersAmount: 0
 [Debug  :  NiceChat] [taffyko.NiceChat.characterLimit] Broadcasting new value "1000" to all clients
 [Debug  :  NiceChat] [taffyko.NiceChat] Broadcasting new value "1.2.7" to all clients
-[Info   :ImoutoSama.PersonalBoombox] Set networked config values
 [Info   : Unity Log] Has beta?: {hasBeta}
 [Info   : Unity Log] Has beta save data: True
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/LightSwitchContainer/PlacementCollider"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/Cube"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/AnimatedShipDoor/HangarDoorLeft (1)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (1)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ControlDesk.001"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (3)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (7)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (6)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (8)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (5)"
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/ShipBottomColliders/Cube (4)"
 [Info   :  TVLoader] Prepared next video!
-[Info   : Unity Log] [HELMET_CAMERAS] Ship camera founded...
-[Info   : Unity Log] [HELMET_CAMERAS] Monitors were changed...
-[Info   : Unity Log] [HELMET_CAMERAS] Turning off vanilla internal ship camera
+[Warning: Unity Log] BoxColliders does not support negative scale or size.
+The effective box size has been forced positive and is likely to give unexpected collision geometry.
+If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "Environment/HangarShip/StorageCloset/Cube.000/Cube"
+[Info   : Unity Log] Triggering animated object trigger bool: setting to True
+[Info   : Unity Log] Triggering animated object trigger bool: setting to True
 [Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
 [Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail True
-[Warning: Unity Log] KillTrigger is disabled! Netcode for GameObjects does not support spawning disabled NetworkBehaviours! The InteractTrigger component was skipped during spawn!
-[Warning: Unity Log] BaboonHawkEnemy is disabled! Netcode for GameObjects does not support spawning disabled NetworkBehaviours! The BaboonBirdAI component was skipped during spawn!
-[Warning: Unity Log] BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "TestRoom(Clone)/TestLevel/CatwalkStairs.002 (1)/StairCollider"
-[Warning: Unity Log] BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "TestRoom(Clone)/TestLevel/CatwalkStairs.002 (1)/StairCollider (6)"
-[Warning: Unity Log] BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "TestRoom(Clone)/TestLevel/CatwalkStairs.002 (1)/StairCollider (8)"
-[Warning: Unity Log] BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "TestRoom(Clone)/TestLevel/CatwalkStairs.002 (1)/StairCollider (10)"
-[Warning: Unity Log] BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "TestRoom(Clone)/TestLevel/CatwalkStairs.002 (1)/StairCollider (5)"
-[Warning: Unity Log] BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "TestRoom(Clone)/TestLevel/CatwalkStairs.002 (1)/StairCollider (9)"
-[Warning: Unity Log] BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "TestRoom(Clone)/TestLevel/CatwalkStairs.002 (1)/StairCollider (7)"
-[Warning: Unity Log] BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "TestRoom(Clone)/TestLevel/CatwalkStairs.002 (1)/StairCollider (4)"
-[Warning: Unity Log] BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "TestRoom(Clone)/TestLevel/CatwalkStairs.002 (1)/StairCollider (2)"
-[Warning: Unity Log] BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "TestRoom(Clone)/TestLevel/CatwalkStairs.002 (1)/StairCollider (3)"
-[Warning: Unity Log] BoxColliders does not support negative scale or size.
-The effective box size has been forced positive and is likely to give unexpected collision geometry.
-If you absolutely need to use negative scaling you can use the convex MeshCollider. Scene hierarchy path "TestRoom(Clone)/TestLevel/CatwalkStairs.002 (1)/StairCollider (1)"
-[Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object
-Stack trace:
-PersonalBoombox.PersonalBoomboxItem.StartMusic (System.Boolean startMusic, System.Boolean pitchDown) (at <f1fbf17e055b4bbe8641eb3f146bb6d4>:IL_0038)
-PersonalBoombox.PersonalBoomboxItem.ItemActivate (System.Boolean used, System.Boolean buttonDown) (at <f1fbf17e055b4bbe8641eb3f146bb6d4>:IL_000A)
-GrabbableObject.UseItemOnClient (System.Boolean buttonDown) (at <b5c9757a4ecc4ee1b8a83c58c3df2def>:IL_005C)
-(wrapper dynamic-method) GameNetcodeStuff.PlayerControllerB.DMD<GameNetcodeStuff.PlayerControllerB::ActivateItem_performed>(GameNetcodeStuff.PlayerControllerB,UnityEngine.InputSystem.InputAction/CallbackContext)
-UnityEngine.InputSystem.Utilities.DelegateHelpers.InvokeCallbacksSafe[TValue] (UnityEngine.InputSystem.Utilities.CallbackArray`1[System.Action`1[TValue]]& callbacks, TValue argument, System.String callbackName, System.Object context) (at <dbb0ce7b96144bd8bcbcb8b0d765f970>:IL_001B)
-UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
-UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr)
-
-[Error  : Unity Log] NullReferenceException while executing 'performed' callbacks of 'Movement/ActivateItem[/Mouse/leftButton]'
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled BaboonHawkEnemy True
+[Info   : Unity Log] Triggering animated object trigger bool: setting to False
+[Info   : Unity Log] Triggering animated object trigger bool: setting to False
+[Message:Lethal Autocomplete] Player has just started using the terminal
+[Message:Lethal Autocomplete] Setup Keybind Callbacks
+[Info   : Unity Log] Set interminalmenu to true: True
+[Info   :Custom Emotes API] Recieved message to play none on client. Playing on Player (UnityEngine.GameObject)
+[Error  : Unity Log] Trying to add Caret (TMPro.TMP_SelectionCaret) for graphic rebuild while we are already inside a graphic rebuild loop. This is not supported.
+[Info   : Unity Log] Could not build 3
 [Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail True
-[Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object
-Stack trace:
-PersonalBoombox.PersonalBoomboxItem.StartMusic (System.Boolean startMusic, System.Boolean pitchDown) (at <f1fbf17e055b4bbe8641eb3f146bb6d4>:IL_0038)
-PersonalBoombox.PersonalBoomboxItem.ItemActivate (System.Boolean used, System.Boolean buttonDown) (at <f1fbf17e055b4bbe8641eb3f146bb6d4>:IL_000A)
-GrabbableObject.UseItemOnClient (System.Boolean buttonDown) (at <b5c9757a4ecc4ee1b8a83c58c3df2def>:IL_005C)
-(wrapper dynamic-method) GameNetcodeStuff.PlayerControllerB.DMD<GameNetcodeStuff.PlayerControllerB::ActivateItem_performed>(GameNetcodeStuff.PlayerControllerB,UnityEngine.InputSystem.InputAction/CallbackContext)
-UnityEngine.InputSystem.Utilities.DelegateHelpers.InvokeCallbacksSafe[TValue] (UnityEngine.InputSystem.Utilities.CallbackArray`1[System.Action`1[TValue]]& callbacks, TValue argument, System.String callbackName, System.Object context) (at <dbb0ce7b96144bd8bcbcb8b0d765f970>:IL_001B)
-UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
-UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr)
-
-[Error  : Unity Log] NullReferenceException while executing 'performed' callbacks of 'Movement/ActivateItem[/Mouse/leftButton]'
+[Info   : Unity Log] Parsed word: boom
+[Info   : Unity Log] noun keyword: boombox ; verb keyword: buy ; result null? : False
+[Info   : Unity Log] result: buyBoombox
+[Message:Lethal Autocomplete] Set Autocomplete BoomBox
+[Info   : Unity Log] load 7
+[Info   : Unity Log] Stop special animation on TerminalScript, by Player (UnityEngine.Transform); Player (GameNetcodeStuff.PlayerControllerB)
+[Info   : Unity Log] Calling stop animation function StopUsing server rpc for player: 0
+[Info   : Unity Log] Stop special animation F
+[Info   : Unity Log] Stop special animation G
+[Info   : Unity Log] Quit terminal; inTerminalMenu true?: {playerScript.inTerminalMenu}
+[Message:Lethal Autocomplete] Remove Keybind Callbacks
 [Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Message:Lethal Autocomplete] Player has just started using the terminal
+[Message:Lethal Autocomplete] Setup Keybind Callbacks
+[Info   : Unity Log] Set interminalmenu to true: True
+[Info   :Custom Emotes API] Recieved message to play none on client. Playing on Player (UnityEngine.GameObject)
+[Info   : Unity Log] Could not build 3
+[Info   : Unity Log] Could not build 3
+[Message:Lethal Autocomplete] Set Autocomplete BoomBox
+[Info   : Unity Log] Parsed word: boombox
+[Info   : Unity Log] noun keyword: boombox ; verb keyword: buy ; result null? : False
+[Info   : Unity Log] result: buyBoombox
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail True
+[Message:Lethal Autocomplete] Set Autocomplete Confirm
+[Info   : Unity Log] Stop special animation on TerminalScript, by Player (UnityEngine.Transform); Player (GameNetcodeStuff.PlayerControllerB)
+[Info   : Unity Log] Calling stop animation function StopUsing server rpc for player: 0
+[Info   : Unity Log] Stop special animation F
+[Info   : Unity Log] Stop special animation G
+[Info   : Unity Log] Quit terminal; inTerminalMenu true?: {playerScript.inTerminalMenu}
+[Message:Lethal Autocomplete] Remove Keybind Callbacks
+[Info   : Unity Log] Lever animation: setting bool to True
+[Info   : Unity Log] Sent lever animation RPC on this client
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail True
+[Info   : Unity Log] Stop special animation on StartGameLever, by Player (UnityEngine.Transform); Player (GameNetcodeStuff.PlayerControllerB)
+[Info   : Unity Log] Stop special animation F
+[Info   : Unity Log] Loading scene
+[Info   : Unity Log] Scene that began loading: CompanyBuilding
+[Info   : Unity Log] LOADING GAME!!!!!
+[Info   : Unity Log] Waiting for all players to load!
+[Info   :Rolling Giant] [RandomlyMoveWhileLooking]: moveSpeed: 6, moveAcceleration: 2, moveDeceleration: 0,5, rotateToLookAtPlayer: True, delayBeforeLookingAtPlayer: 2, lookAtPlayerDuration: 3, waitTimeMin: 1, waitTimeMax: 3, randomMoveTimeMin: 1, randomMoveTimeMax: 3, lookTimeBeforeAgro: 0
+[Info   :Rolling Giant] Config sync request received from client: 0
+[Info   :Rolling Giant] Config sync sent to client: 0
+[Info   :Rolling Giant] Config sync request sent.
+[Message:Rolling Giant] Rolling Giant AI changed: RandomlyMoveWhileLooking
+[Info   : Unity Log] Stop special animation G
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Warning: Unity Log] One Static Lighting Sky component was already set for baking, only the latest one will be used.
+[Info   : Unity Log] Animating material now
+[Info   : Unity Log] Animating material now
+[Warning: Unity Log] LadderTrigger is disabled! Netcode for GameObjects does not support spawning disabled NetworkBehaviours! The InteractTrigger component was skipped during spawn!
+[Warning: Unity Log] LadderTrigger is disabled! Netcode for GameObjects does not support spawning disabled NetworkBehaviours! The InteractTrigger component was skipped during spawn!
+[Warning: Unity Log] EntranceTeleportB is disabled! Netcode for GameObjects does not support spawning disabled NetworkBehaviours! The InteractTrigger component was skipped during spawn!
+[Warning: Unity Log] EntranceTeleportB is disabled! Netcode for GameObjects does not support spawning disabled NetworkBehaviours! The EntranceTeleport component was skipped during spawn!
+[Warning: Unity Log] EntranceTeleportA is disabled! Netcode for GameObjects does not support spawning disabled NetworkBehaviours! The InteractTrigger component was skipped during spawn!
+[Warning: Unity Log] EntranceTeleportA is disabled! Netcode for GameObjects does not support spawning disabled NetworkBehaviours! The EntranceTeleport component was skipped during spawn!
+[Info   :toemmsen.ChatCommands] Inside: ImmortalSnail
+[Info   : Unity Log] Spawning synced props on server. Length: 0
+[Info   :toemmsen.ChatCommands] Host, getting mine ref...
+[Info   :toemmsen.ChatCommands] Found: 0 Mines on this level
+[Info   :toemmsen.ChatCommands] Found: 0 Turrets on this level
+[Info   :toemmsen.ChatCommands] Host, getting mine ref...
+[Info   :toemmsen.ChatCommands] Found: 0 Mines on this level
+[Info   :toemmsen.ChatCommands] Found: 0 Turrets on this level
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Warning: Unity Log] Audio source failed to initialize audio spatializer. An audio spatializer is specified in the audio project settings, but the associated plugin was not found or initialized properly. Please make sure that the selected spatializer is compatible with the target.
+[Info   : Unity Log] startofround: 3; 0
+[Info   : Unity Log] Playing time of day music
+[Info   : Unity Log] Play time of day sfx
+[Info   : Unity Log] Play music!; ; 0,6
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail True
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail True
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail True
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail True
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail True
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail True
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Error  :MetalPipeSFX.HornMoan] Error loading sounds: D:\Games_D\steamapps\steamapps\common\Lethal Company\BepInEx\plugins\MetalPipeSFX-HornMoan\Moaning1.mp3
+HTTP/1.1 404 Not Found
+[Error  : Unity Log] InvalidOperationException: HTTP/1.1 404 Not Found
+Stack trace:
+UnityEngine.Networking.DownloadHandler.GetCheckedDownloader[T] (UnityEngine.Networking.UnityWebRequest www) (at <c222d83f79f841d286bf88de99b703c5>:IL_003F)
+UnityEngine.Networking.DownloadHandlerAudioClip.GetContent (UnityEngine.Networking.UnityWebRequest www) (at <9a17a0dbd95042e09c96c00e843f4382>:IL_0001)
+HornMoan.PipePatch.LoadAudioClip (System.String filepath) (at <adcc6bbb2f2a4c35b1d0719ceb30afc6>:IL_005B)
+HornMoan.PipePatch.AudioPatch (GrabbableObject __instance) (at <adcc6bbb2f2a4c35b1d0719ceb30afc6>:IL_0026)
+(wrapper dynamic-method) GrabbableObject.DMD<GrabbableObject::Start>(GrabbableObject)
+BoomboxItem.Start () (at <b5c9757a4ecc4ee1b8a83c58c3df2def>:IL_0000)
+
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail True
 [Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object
 Stack trace:
 BoomboxItem.StartMusic (System.Boolean startMusic, System.Boolean pitchDown) (at <b5c9757a4ecc4ee1b8a83c58c3df2def>:IL_0003)
@@ -1332,14 +1302,30 @@ UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeI
 UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr)
 
 [Error  : Unity Log] NullReferenceException while executing 'performed' callbacks of 'Movement/ActivateItem[/Mouse/leftButton]'
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled BaboonHawkEnemy True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail True
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail True
+[Error  : Unity Log] NullReferenceException: Object reference not set to an instance of an object
+Stack trace:
+BoomboxItem.StartMusic (System.Boolean startMusic, System.Boolean pitchDown) (at <b5c9757a4ecc4ee1b8a83c58c3df2def>:IL_0003)
+BoomboxItem.ItemActivate (System.Boolean used, System.Boolean buttonDown) (at <b5c9757a4ecc4ee1b8a83c58c3df2def>:IL_0008)
+GrabbableObject.UseItemOnClient (System.Boolean buttonDown) (at <b5c9757a4ecc4ee1b8a83c58c3df2def>:IL_005C)
+(wrapper dynamic-method) GameNetcodeStuff.PlayerControllerB.DMD<GameNetcodeStuff.PlayerControllerB::ActivateItem_performed>(GameNetcodeStuff.PlayerControllerB,UnityEngine.InputSystem.InputAction/CallbackContext)
+UnityEngine.InputSystem.Utilities.DelegateHelpers.InvokeCallbacksSafe[TValue] (UnityEngine.InputSystem.Utilities.CallbackArray`1[System.Action`1[TValue]]& callbacks, TValue argument, System.String callbackName, System.Object context) (at <dbb0ce7b96144bd8bcbcb8b0d765f970>:IL_001B)
+UnityEngine.InputSystem.LowLevel.<>c__DisplayClass7_0:<set_onUpdate>b__0(NativeInputUpdateType, NativeInputEventBuffer*)
+UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, IntPtr)
+
+[Error  : Unity Log] NullReferenceException while executing 'performed' callbacks of 'Movement/ActivateItem[/Mouse/leftButton]'
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail True
+[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail True
+[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
 [Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail True
 [Info   : Unity Log] Leaving current lobby
 [Info   : Unity Log] Disconnecting and setting networkobjects to destroy with owner
 [Info   :Buyable Shotgun Shells] Server disconnect
 [Info   :Rolling Giant] [RandomlyMoveWhileLooking]: moveSpeed: 6, moveAcceleration: 2, moveDeceleration: 0,5, rotateToLookAtPlayer: True, delayBeforeLookingAtPlayer: 2, lookAtPlayerDuration: 3, waitTimeMin: 1, waitTimeMax: 3, randomMoveTimeMin: 1, randomMoveTimeMax: 3, lookTimeBeforeAgro: 0
 [Message:Rolling Giant] Reverting sync
-[Info   : Unity Log] saved vehicle: -1
 [Info   : Unity Log] Shutting down and disconnecting from server. Is host?: True
 [Info   : Unity Log] Resetting unlockables list!
 [Info   : Unity Log] Scene manager is null
@@ -1357,607 +1343,9 @@ UnityEngineInternal.Input.NativeInputSystem:NotifyUpdate(NativeInputUpdateType, 
 [Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
 [Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
 [Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
+[Info   :ainavt.lc.lethalconfig] Saved config values for 1 items.
+[Info   :ainavt.lc.lethalconfig] Modified 1 item(s) that requires a restart.
 [Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
 [Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] IsEnemyEnabled default_snail False
-[Info   :RugbugRedfern.SkinwalkerMod] Audio folder not present. Don't worry about it, it will be created automatically when you play with friends. (D:/Games_D/steamapps/steamapps/common/Lethal Company/Lethal Company_Data\..\Dissonance_Diagnostics)
+[Warning: Unity Log] [SpectateEnemies]: Config saved
+[Info   : Unity Log] unsubscribing from steam callbacks
